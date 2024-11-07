@@ -1,0 +1,19 @@
+function ratesTime=extractRatesTime(rates,time)
+
+ratesTime.jLreal  = rates.jLreal(time,:);
+ratesTime.jFreal  = rates.jFreal(time,:);
+ratesTime.jDOC    = rates.jDOC(time,:);
+ratesTime.jN      = rates.jN(time,:);
+ratesTime.jSi     = rates.jSi(time,:);
+ratesTime.jTot    = rates.jTot(time,:);
+ratesTime.f       = rates.f(time,:);
+ratesTime.jF      = rates.jF(time,:);
+ratesTime.jMax    = rates.jMax(time,:);
+ratesTime.jRespTot  = rates.jRespTot(time,:);
+ratesTime.jR  = rates.jR(time,:);
+ratesTime.jLossPassive  = rates.jLossPassive(time,:);
+ratesTime.jPOM  = rates.jPOM(time,:);
+ratesTime.mortpred = rates.mortpred(time,:);
+ratesTime.mortHTL  = rates.mortHTL(time,:);
+ratesTime.mort2    = rates.mort2(time,:);
+ratesTime.mort     = rates.mort(time,:);
